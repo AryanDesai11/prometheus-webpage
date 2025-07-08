@@ -17,7 +17,9 @@ app.secret_key = os.getenv("FLASK_SECRET_KEY", "tempsecret")
 # Database configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("SQLALCHEMY_DATABASE_URI")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+
+db = SQLAlchemy()
+db.init_app(app)
 
 # User model
 class User(db.Model):
