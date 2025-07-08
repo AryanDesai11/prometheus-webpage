@@ -9,5 +9,5 @@ services:
         value: production
       - key: FLASK_SECRET_KEY
         value: your_super_secret_key_here  # Replace with a strong one for real deployment
-      - key: DB_URI
+      - key: SQLALCHEMY_DATABASE_URI
         value: postgresql://prometheus_db_user:BqNtVHaBxCg1rIkwe0FDbHnGYRRg9Db1@dpg-d1mkk8ndiees73aplp30-a.oregon-postgres.render.com/prometheus_db
