@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 import os
 
 # Load environment variables
-load_dotenv("data.env")
+if os.environ.get("RENDER") != "true":
+    load_dotenv("data.env")
 
 # Setup Flask app
 app = Flask(__name__)
