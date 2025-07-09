@@ -1,6 +1,6 @@
 # Prometheus Committee App – Signup and Admin Dashboard
 
-This is a live Flask-based web application built for Prometheus Round 2 selections. It allows users to register via a signup form and enables admins to view all signups through a secure dashboard. Due to inactivity the application might take 30 sec to start so please wait for webpage to load for the first attempt.
+This is a live Flask-based web application built for Prometheus Round 2 selections. It allows users to register via a signup form and enables admins to view all signups through a secure dashboard. **Due to inactivity the application might take 30 sec to start so please wait for webpage to load for the first attempt.**
 
 ## Live URLs
 
